@@ -1,0 +1,16 @@
+# --- Core Orchestration ---
+langgraph>=0.4.10          # The state machine engine
+langchain>=0.3.0
+langchain-core>=0.3.66     # Base interfaces & schemas
+langchain-openai           # Specific driver for GPT models
+
+# --- Intelligence & Tools ---
+langchain-community        # For extra loaders and utilities
+langchain-tavily           # Modern AI-optimized search
+pydantic>=2.10.0           # Strict data validation (V2 is standard now)
+yfinance>=0.2.40
+fpdf2>=2.7.0
+
+# --- Infrastructure & UI ---
+python-dotenv              # For managing your API keys
+streamlit                  # For the web interface
